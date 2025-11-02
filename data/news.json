@@ -1,0 +1,53 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "New Water Borehole Brings Relief to Kijonjo Village",
+      "excerpt": "Community members in Kijonjo Village are celebrating the completion of a new water borehole that will serve over 500 households. The project, funded by generous donors, includes a water management committee trained to maintain the facility.",
+      "date": "2024-01-15",
+      "thumbnail": "https://via.placeholder.com/600x400/0077B6/FFFFFF?text=Water+Borehole",
+      "category": "WASH"
+    },
+    {
+      "id": 2,
+      "title": "Youth Entrepreneurship Training Graduates 50 Participants",
+      "excerpt": "Fifty young people completed a three-month entrepreneurship training program focused on business planning, financial management, and marketing. Graduates are now launching their businesses with seed capital support from ADG.",
+      "date": "2024-01-10",
+      "thumbnail": "https://via.placeholder.com/600x400/2D6A4F/FFFFFF?text=Youth+Training",
+      "category": "Empowerment"
+    },
+    {
+      "id": 3,
+      "title": "Child Protection Campaign Reaches 2,000 Children",
+      "excerpt": "Our community-wide child protection awareness campaign has reached over 2,000 children and their families. The initiative included school visits, community meetings, and the establishment of three new child protection committees.",
+      "date": "2024-01-05",
+      "thumbnail": "https://via.placeholder.com/600x400/0077B6/FFFFFF?text=Child+Protection",
+      "category": "Child Protection"
+    },
+    {
+      "id": 4,
+      "title": "Women's Savings Groups Show Impressive Growth",
+      "excerpt": "Ten women's savings groups supported by ADG have collectively saved over $15,000, enabling members to start small businesses and improve their households. The groups also serve as platforms for peer support and leadership development.",
+      "date": "2023-12-20",
+      "thumbnail": "https://via.placeholder.com/600x400/2D6A4F/FFFFFF?text=Women+Groups",
+      "category": "Empowerment"
+    },
+    {
+      "id": 5,
+      "title": "School Library Opens in Lyantonde District",
+      "excerpt": "A new community library has opened its doors, providing access to books and reading programs for over 1,000 students and community members. The library includes a computer lab and hosts regular reading clubs and educational workshops.",
+      "date": "2023-12-15",
+      "thumbnail": "https://via.placeholder.com/600x400/0077B6/FFFFFF?text=Library",
+      "category": "Education"
+    },
+    {
+      "id": 6,
+      "title": "Health Outreach Serves 800 Community Members",
+      "excerpt": "A recent health outreach program provided free health screenings, immunizations, and health education to 800 community members. The event was organized in partnership with local health facilities and trained 20 new community health workers.",
+      "date": "2023-12-10",
+      "thumbnail": "https://via.placeholder.com/600x400/2D6A4F/FFFFFF?text=Health+Outreach",
+      "category": "Health"
+    }
+  ]
+}
+

@@ -1,0 +1,59 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "src": "https://via.placeholder.com/800x800/0077B6/FFFFFF?text=Community+Meeting",
+      "alt": "Community meeting in Lyantonde District",
+      "caption": "Community meeting"
+    },
+    {
+      "id": 2,
+      "src": "https://via.placeholder.com/800x800/2D6A4F/FFFFFF?text=Water+Project",
+      "alt": "Water borehole construction",
+      "caption": "Water project"
+    },
+    {
+      "id": 3,
+      "src": "https://via.placeholder.com/800x800/0077B6/FFFFFF?text=Education",
+      "alt": "Children at school",
+      "caption": "Education program"
+    },
+    {
+      "id": 4,
+      "src": "https://via.placeholder.com/800x800/2D6A4F/FFFFFF?text=Women+Empowerment",
+      "alt": "Women's group meeting",
+      "caption": "Women's empowerment"
+    },
+    {
+      "id": 5,
+      "src": "https://via.placeholder.com/800x800/0077B6/FFFFFF?text=Health+Outreach",
+      "alt": "Health outreach program",
+      "caption": "Health outreach"
+    },
+    {
+      "id": 6,
+      "src": "https://via.placeholder.com/800x800/2D6A4F/FFFFFF?text=Youth+Training",
+      "alt": "Youth training session",
+      "caption": "Youth training"
+    },
+    {
+      "id": 7,
+      "src": "https://via.placeholder.com/800x800/0077B6/FFFFFF?text=Library",
+      "alt": "School children with books",
+      "caption": "Library program"
+    },
+    {
+      "id": 8,
+      "src": "https://via.placeholder.com/800x800/2D6A4F/FFFFFF?text=Agriculture",
+      "alt": "Community garden project",
+      "caption": "Agriculture initiative"
+    },
+    {
+      "id": 9,
+      "src": "https://via.placeholder.com/800x800/0077B6/FFFFFF?text=Child+Protection",
+      "alt": "Child protection workshop",
+      "caption": "Child protection"
+    }
+  ]
+}
+

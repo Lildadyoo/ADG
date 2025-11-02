@@ -1,0 +1,35 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "title": "Community Empowerment",
+      "description": "Our Community Empowerment program focuses on building local capacity and fostering self-reliance. We provide training in leadership, project management, and financial literacy to community groups and local leaders. Through these initiatives, communities learn to identify their own priorities, mobilize resources, and implement sustainable development projects. We support the formation of savings groups, agricultural cooperatives, and small business associations that create economic opportunities and strengthen community bonds. The program emphasizes participatory planning and community ownership, ensuring that development efforts are aligned with local values and priorities. By empowering communities to drive their own transformation, we create lasting change that extends far beyond our direct involvement.",
+      "icon": "community"
+    },
+    {
+      "id": 2,
+      "title": "Child Protection",
+      "description": "The Child Protection program is dedicated to creating safe environments where children can thrive and reach their full potential. We work with schools, families, and local authorities to identify and respond to child protection concerns, including abuse, neglect, and exploitation. Our initiatives include awareness campaigns, child rights education, and support systems for vulnerable children. We establish child protection committees in communities and train local advocates who serve as first responders. The program also provides psychosocial support, educational assistance, and family strengthening services to children and families in crisis. Through our comprehensive approach, we aim to ensure that every child grows up in a nurturing environment free from harm.",
+      "icon": "child"
+    },
+    {
+      "id": 3,
+      "title": "WASH (Water, Sanitation & Hygiene)",
+      "description": "Access to clean water and proper sanitation is fundamental to health and dignity. Our WASH program constructs and rehabilitates water sources, including boreholes, protected springs, and rainwater harvesting systems. We work with communities to establish water management committees that maintain and repair water facilities, ensuring long-term sustainability. The program also promotes improved sanitation through the construction of household latrines and hygiene education campaigns. We train community health workers to deliver key hygiene messages and monitor water quality to prevent waterborne diseases. By improving access to safe water and sanitation, we reduce illness, improve school attendance, and free up time that women and girls previously spent collecting water.",
+      "icon": "water"
+    },
+    {
+      "id": 4,
+      "title": "Education & Health",
+      "description": "Our Education & Health program addresses two critical pillars of human development. In education, we support school infrastructure improvements, provide learning materials, and offer scholarships to vulnerable children. We train teachers in child-centered methodologies and support community libraries and reading clubs. The health component focuses on preventive care, maternal and child health, and disease prevention. We conduct health education sessions, support immunization campaigns, and facilitate access to health services. We also train community health workers who serve as a bridge between communities and formal health systems. Through integrated education and health interventions, we ensure that children and families have the knowledge and access to services needed for a healthy, productive life.",
+      "icon": "education"
+    },
+    {
+      "id": 5,
+      "title": "Women & Youth Empowerment",
+      "description": "The Women & Youth Empowerment program recognizes the critical role that women and young people play in community development. We provide skills training in income-generating activities, entrepreneurship, and financial management. Women's groups receive support to start small businesses, access microfinance, and participate in decision-making processes. For youth, we offer vocational training, mentorship programs, and leadership development opportunities. The program creates safe spaces where women and youth can share experiences, build networks, and access information about their rights and opportunities. We also address gender-based violence through awareness campaigns and support services. By empowering women and youth, we unlock their potential as agents of change and create more equitable, resilient communities.",
+      "icon": "empowerment"
+    }
+  ]
+}
+

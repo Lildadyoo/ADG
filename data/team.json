@@ -1,0 +1,41 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Sarah Nakato",
+      "role": "Executive Director",
+      "image": "https://via.placeholder.com/400x400/0077B6/FFFFFF?text=S"
+    },
+    {
+      "id": 2,
+      "name": "James Mubiru",
+      "role": "Programs Coordinator",
+      "image": "https://via.placeholder.com/400x400/2D6A4F/FFFFFF?text=J"
+    },
+    {
+      "id": 3,
+      "name": "Mary Nalubega",
+      "role": "Community Outreach Manager",
+      "image": "https://via.placeholder.com/400x400/0077B6/FFFFFF?text=M"
+    },
+    {
+      "id": 4,
+      "name": "David Ssemwogerere",
+      "role": "Finance & Operations",
+      "image": "https://via.placeholder.com/400x400/2D6A4F/FFFFFF?text=D"
+    },
+    {
+      "id": 5,
+      "name": "Grace Namukasa",
+      "role": "Health Programs Officer",
+      "image": "https://via.placeholder.com/400x400/0077B6/FFFFFF?text=G"
+    },
+    {
+      "id": 6,
+      "name": "Robert Kiggundu",
+      "role": "Education Specialist",
+      "image": "https://via.placeholder.com/400x400/2D6A4F/FFFFFF?text=R"
+    }
+  ]
+}
+

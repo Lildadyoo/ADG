@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-container mx-auto px-4 md:px-8;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6;
+  }
+  
+  .btn-primary {
+    @apply bg-adg-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-adg-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors;
+  }
+}
+
