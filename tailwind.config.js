@@ -15,6 +15,9 @@ module.exports = {
       maxWidth: {
         'container': '1280px',
       },
+      fontFamily: {
+        'serif': ['Georgia', 'serif'],
+      },
     },
   },
   plugins: [],
