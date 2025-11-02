@@ -47,6 +47,18 @@ Contains:
 2. Use format: `"date": "YYYY-MM-DD"`
 3. Update thumbnail URL (currently placeholders - replace with your image URLs)
 
+#### `hero.json`
+Contains:
+- Hero section images (background and featured)
+- Each image has: url (local path), fallback (placeholder), alt text, description
+
+**To add hero images (Easy!):**
+1. Simply drop your images into `/public/images/hero/` folder:
+   - `hero-background.jpg` - Background image (1920x1080px recommended)
+   - `hero-featured.jpg` - Featured image shown on desktop (600x400px recommended)
+2. The images will automatically appear! If images are missing, placeholders will show instead.
+3. No need to edit the JSON file - just name your files correctly and drop them in!
+
 #### `gallery.json`
 Contains:
 - Gallery images

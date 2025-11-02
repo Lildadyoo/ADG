@@ -1,10 +1,37 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import heroData from '../data/hero.json';
 
 export default function Hero() {
+  // Get hero images from JSON - Just drop images into /public/images/hero/ folder!
+  const backgroundImage = heroData.backgroundImage.url;
+  const backgroundFallback = heroData.backgroundImage.fallback;
+  const featuredImage = heroData.featuredImage.url;
+  const featuredFallback = heroData.featuredImage.fallback;
+
   return (
     <section className="relative bg-gradient-to-br from-adg-blue via-adg-blue to-adg-green text-white py-20 md:py-32 overflow-hidden">
+      {/* Hero Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src={backgroundImage}
+          alt={heroData.backgroundImage.alt}
+          fill
+          className="object-cover opacity-20"
+          priority
+          unoptimized
+          onError={(e) => {
+            // Fallback to placeholder if local image doesn't exist
+            if (e.target.src !== backgroundFallback) {
+              e.target.src = backgroundFallback;
+            }
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-adg-blue/90 via-adg-blue/80 to-adg-green/90"></div>
+      </div>
+
       {/* Decorative Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden z-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-white opacity-5 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-adg-green opacity-10 rounded-full blur-3xl animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-white opacity-5 rounded-full blur-3xl"></div>
@@ -73,6 +100,24 @@ export default function Hero() {
           {/* Right Column - Visual Elements */}
           <div className="hidden lg:block relative">
             <div className="relative">
+              {/* Hero Image on Desktop */}
+              <div className="relative mb-6 rounded-2xl overflow-hidden border-4 border-white border-opacity-30 shadow-2xl">
+                <Image
+                  src={featuredImage}
+                  alt={heroData.featuredImage.alt}
+                  width={600}
+                  height={400}
+                  className="object-cover w-full h-auto"
+                  unoptimized
+                  onError={(e) => {
+                    // Fallback to placeholder if local image doesn't exist
+                    if (e.target.src !== featuredFallback) {
+                      e.target.src = featuredFallback;
+                    }
+                  }}
+                />
+              </div>
+              
               {/* Icon Grid */}
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 hover:bg-opacity-20 transition-all duration-300 transform hover:scale-105 border border-white border-opacity-20">

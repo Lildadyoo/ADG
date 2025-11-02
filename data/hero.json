@@ -1,0 +1,15 @@
+{
+  "backgroundImage": {
+    "url": "/images/hero/hero-background.jpg",
+    "alt": "ADG Community Empowerment",
+    "fallback": "https://via.placeholder.com/1920x1080/0077B6/FFFFFF?text=ADG+Community+Empowerment",
+    "description": "Hero section background image - should show community members, development work, or positive impact scenes. Place your image at: public/images/hero/hero-background.jpg"
+  },
+  "featuredImage": {
+    "url": "/images/hero/hero-featured.jpg",
+    "alt": "Community development in action",
+    "fallback": "https://via.placeholder.com/600x400/0077B6/FFFFFF?text=Hero+Image",
+    "description": "Featured hero image displayed on desktop - recommended size: 600x400px or larger. Place your image at: public/images/hero/hero-featured.jpg"
+  }
+}
+
